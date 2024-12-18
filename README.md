@@ -7,7 +7,7 @@ Follow these steps to get started:
 
 1. Clone the repository:
     ```bash
-    git clone <url>
+    git clone https://github.com/jean-brg/nextjs-daisyui-boilerplate.git
     ```
 
 2. Navigate into the project directory:
