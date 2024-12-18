@@ -9,6 +9,11 @@ Follow these steps to get started:
     ```bash
     git clone https://github.com/jean-brg/nextjs-daisyui-boilerplate.git
     ```
+    
+    Renaming the cloned project is also an option
+    ```bash
+    git clone https://github.com/jean-brg/nextjs-daisyui-boilerplate.git <new-project-name>
+    ```
 
 2. Navigate into the project directory:
     ```bash
@@ -26,6 +31,36 @@ Follow these steps to get started:
     ```
 
 The app should now be running at `http://localhost:3000`.
+
+## Make It Your Own
+Follow these steps to use this boilerplate to make your own project:
+
+1. Rename project directory if not already done
+    ```bash
+    mv nextjs-daisyui-boilerplate my-new-project
+    ```
+
+2. Rename project in `package.json` and `package-lock.json`
+    ```json
+    {
+        "name": "my-new-project-name",  // Update this to the new project name
+        // ...
+    }
+    ```
+
+3. Regenerate `package-lock.json` and dependencies
+    ```bash
+    rm -rf node_modules package-lock.json
+    npm install
+    ```
+
+4. Reinitialize Git
+    ```bash
+    rm -rf .git
+    git init
+    ```
+
+All of these steps are optional.
 
 ## Usage
 This boilerplate comes pre-configured with:
